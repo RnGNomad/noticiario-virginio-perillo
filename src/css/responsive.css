@@ -13,19 +13,20 @@
     }
 
     .noticiario {
-        height: 600vh;
+        height: 4200px;
     }
 
     .noticiario .assunto-principal{
         margin-top: 100px;
         padding: 15vh 10%;
-        height: 200vh;
+        height: 1500px;
+        gap: 25px;
     }
 
     .noticiario .extra{
         flex-direction: column;
         align-items: center;
-        height: 270vh;
+        height: 1600px;
         justify-content: space-evenly;
         margin-top: 100px;
         padding: 0px;
@@ -37,13 +38,28 @@
         width: auto;
         text-align: center;
     }
+    .noticiario .extra .informacoes-extra{
+        gap: 20px;
+        width: 80%;
+    }
 
     .noticiario .extra .fotos-relacionadas{
         margin-left: 0px;
+        gap: 20px;
+    }
+    .noticiario .fotos-relacionadas .titulo{
+        margin-bottom: 20px;
     }
 
     .noticiario .extra .paragrafo{
         width: 90%;
+    }
+    .noticiario .extra .subtitulo{
+        text-align: center;
+    }
+
+    .mais-sobre .paragrafo{
+        margin-left: 25px;
     }
 
     .titulo{
