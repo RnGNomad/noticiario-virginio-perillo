@@ -1,0 +1,79 @@
+@media(max-width: 900px){
+    body{
+        background: url(../images/Pngtreeschool_season_student_start_school_954651.jpg );
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .header{
+        width: 100%;
+    }
+
+    .header .header-container nav input,label{
+        margin: 40% 40% 0px 0px;
+    }
+
+    .introducao {
+        height: 50vh;
+    }
+
+    .noticiario {
+        height: 550vh;
+    }
+
+    .noticiario .assunto-principal{
+        margin-top: 100px;
+        padding: 5vh 10%;
+        height: 150vh;
+    }
+
+    .noticiario .extra{
+        flex-direction: column;
+        align-items: center;
+        height: 270vh;
+        justify-content: space-evenly;
+        margin-top: 100px;
+        padding: 0px;
+        margin: 15vh 0px;
+        
+    }
+    .noticiario .extra .informacoes-extra{
+        gap: 20px;
+        width: 80%;
+        align-self: center;
+    }
+    .noticiario .extra .titulo{
+        text-align: center;
+    }
+    .noticiario .extra .informacoes-extra h3:last-of-type{
+        width: auto;
+        text-align: center;
+    }
+    
+    .noticiario .extra .paragrafo{
+        width: 90%;
+    }
+    
+    .noticiario .extra .fotos-relacionadas{
+        gap: 10px;
+        margin-left: 0px;
+    }
+    .noticiario .extra .fotos-relacionadas .titulo{
+        margin-bottom: 20px;
+    }
+
+    .mais-sobre .paragrafo{
+        margin-left: 20px;
+    }
+
+    .titulo{
+        font-size: 1.9rem;
+    }
+    .paragrafo{
+        font-size: 1.5rem;
+        margin-left: 0px;
+        width: 90%;
+    }
+    .subtitulo{
+        font-size: 1.7rem;
+    }
+}

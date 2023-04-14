@@ -1,0 +1,168 @@
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background: url(../images/plano-de-volta-ao-fundo-da-escola.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+.header{
+    background-color: #fff;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    box-shadow: grey 0px 2px;
+}
+
+.header .home{
+    font-size: 2.7rem;
+    font-weight: 700;
+    width: 600px;
+    height: 60px;
+    text-align: center;
+    padding: 40px 0px 0px;
+}
+
+.header .home::before{
+    content: "";
+    background-image: url(../images/icon.jpg);
+    background-size: cover;
+    padding: 15px 30px;
+    margin-right: 20px;
+}
+
+.header .header-container nav ul{
+    margin: auto;
+    width: 100%;
+}
+
+.introducao{
+    background-color: #fff;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.introducao .lembrete{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.noticiario{
+    display: flex;
+    height: 300vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.noticiario .assunto-principal{
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 50px 25px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.titulo{
+    align-self: center;
+    font-size: 3rem;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.subtitulo{
+    align-self: center;
+    font-size: 2.5rem;
+    color: #666;
+}
+
+.paragrafo{
+    margin-left: 20px;
+}
+
+.noticiario .extra{
+    background-color: #fff;
+    height: 80vh;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.noticiario .extra .informacoes-extra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.noticiario .extra .informacoes-extra h3:last-of-type{
+    width: 392px;
+}
+
+.noticiario .extra .fotos-relacionadas{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+
+.noticiario .extra .fotos-relacionadas img{
+    height: 200px;
+}
+
+.noticiario .mais-sobre{
+    background: url(../images/Blog-Rabiscos.jpg);
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.noticiario .mais-sobre:last-child{
+    font-size: 2rem;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.noticiario .mais-sobre .paragrafo:hover{
+    color: crimson;
+}
+
+.rodape{
+    background-color: #fff;
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.rodape .socials{
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape .socials a{
+    padding: 5px;
+    font-size: 2rem;
+}
+
+.rodape .socials a:hover{
+    color: crimson;
+}
